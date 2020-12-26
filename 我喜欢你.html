@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html style="font-size: 100px;" lang="zh-cmn-Hans"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>我喜欢你</title>
+<link rel="stylesheet" href="%E6%88%91%E5%96%9C%E6%AC%A2%E4%BD%A0_files/love.css">
+<script src="%E6%88%91%E5%96%9C%E6%AC%A2%E4%BD%A0_files/client.js"></script>
+<script>var airbrake =new airbrakeJs.Client({projectId:209583,projectKey:'47345de4fa232ea9a7337433eebb12c1'
+});var ok ="真的吗？我不信";var p ="giao很久了~";var h1 ="不giao了好吗~";var no =["你好，我是双喜","我喜欢篮球","我不会唱歌","饭我会做","菜我会烧","衣服我会洗","家务我全包"];var data =undefined
+if (data) {var result =JSON.parse(data);if (result.no !=undefined) {no =result.no;};if (result.ok !=undefined) {ok =unescape(result.ok);};if (result.p !=undefined) {p =unescape(result.p);};if (result.h1 !=undefined) {h1 =unescape(result.h1);};}
+</script>
+<script>(function (doc,win) {var docEl =doc.documentElement,resizeEvt ='orientationchange' in window ?'orientationchange' :'resize',recalc =function () {var clientWidth =docEl.clientWidth;if (!clientWidth) return;if (clientWidth >=750) {docEl.style.fontSize ='100px';} else {docEl.style.fontSize =100 *(clientWidth / 750) + 'px';}
+};if (!doc.addEventListener) return;win.addEventListener(resizeEvt,recalc,false);doc.addEventListener('DOMContentLoaded',recalc,false);})(document,window);</script>
+</head>
+<body>
+<div class="main">
+<div class="left">
+<p>
+<script>document.write(p)
+</script>小姐姐我关注你很久了~
+</p>
+<h1>
+<script>document.write(h1)
+</script>做我女朋友好吗~
+</h1>
+</div>
+<img class="pic" src="%E6%88%91%E5%96%9C%E6%AC%A2%E4%BD%A0_files/1.webp">
+</div>
+<div class="button-box">
+<button id="ok">好</button>
+<button id="no">不好</button>
+</div>
+<footer>
+<b>©</b>
+<b>
+<a href="http://www.zkl2333.com/">zkl2333</a> 2018</b>
+<br>
+<a href="http://www.miitbeian.gov.cn/">浙ICP备17004361号-1</a>
+</footer>
+
+<script>const clickOk =document.querySelector('#ok');const clickNo =document.querySelector('#no');clickOk.onclick =function () {alert(ok);}
+clickNo.onclick =function () {alert(unescape(getmsg(no)));}
+var l =no.length;var i =0;function getmsg(arr) {if (i >l - 1) {i =0
+}
+return arr[i++]
+}
+</script>
+
+</body></html>
